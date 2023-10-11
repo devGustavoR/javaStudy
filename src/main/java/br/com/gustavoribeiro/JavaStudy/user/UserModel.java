@@ -22,7 +22,7 @@ public class UserModel {
   @Column(unique = true, nullable = false)
   private String username;
   private String name;
-  private int password;
+  private String password;
 
   @CreationTimestamp
   private LocalDateTime createdAt;
